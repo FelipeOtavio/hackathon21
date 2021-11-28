@@ -93,6 +93,21 @@ span {
 background-color: #bce8f0;
 }
 
+.navbar-nav{
+  width:-webkit-fill-available;
+  padding: 0 110px 0 0;
+  color: #F00 !important;
+
+}
+
+.container {
+  text-align: center;
+}
+
+.login {
+  color: black;
+}
+
 
 
 

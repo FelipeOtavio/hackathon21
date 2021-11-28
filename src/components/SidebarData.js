@@ -6,8 +6,6 @@ import React from "react"
 export const SidebarData = [
     {
         title: 'Lojas cadastradas',
-        path: '/home',
-        icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     },
     

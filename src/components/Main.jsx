@@ -56,10 +56,10 @@ export const Header = () => {
                     */}   
                     </ul>
             </div>    
-        <NavDropdown 
+        <NavDropdown
           id="nav-dropdown-dark-example"
-          title="Login"
-          menuVariant="yellow"
+          title={<FaIcons.FaUser/>}
+          menuVariant="dark"
         >  
           <NavDropdown.Item href="">Login</NavDropdown.Item>
           <NavDropdown.Item href="">Novo Úsuario</NavDropdown.Item>
@@ -105,27 +105,27 @@ export const Footer = () => {
     return (
         <>
     <footer className="footer">
-        <div class="mt-3 pt-3 pb-1 footer">
+        <div class="mt-3 pt-3 pb-3 footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-xs-11 about-company">
                         <Link to='/' className="navbar-brand">
                             <img src={logo}></img>
                         </Link>
-                        <p class="pr-5 text-white-50"> Hackathon é uma empresa criada em 2021, para fazer a listagem produtos que foram cadastrados através de lojas diversas </p>
+                        <p class="pr-3 text-white-50"> Hackathon é uma empresa criada em 2021 para fazer a listagem produtos que foram cadastrados através de lojas diversas </p>
                         <p><a href="#" ><FaIcons.FaFacebook /></a><a href="#"><FaIcons.FaLinkedin /></a></p>
                     </div>
-                    <div class="col-lg-3 col-xs-12 links">
+                    <div class="col-lg-3 col-xs-10 links">
                         <h4 class="mt-lg-0 mt-sm-3">Links</h4>
                         <ul class="m-0 p-0">
-                            <li> <FaIcons.FaWhatsapp size="40"  /> <a href="#"> 44 984334432 </a></li>
+                            
+                            <li> <FaIcons.FaWhatsapp size="40" /> <a href="https://api.whatsapp.com/send?phone=5544984334432"> 44 984334432 </a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-xs-12 location">
-                        <h4 class="mt-lg-0 mt-sm-4">Localização</h4>
-                        <p>Faculdade alfa. </p>
-                        <p class="mb-0"><i class="fa fa-phone mr-3"></i>(44) 3636-3636</p>
-                        <p><i class="fa fa-envelope-o mr-3"></i>Hackathon21@gmail.com</p>
+                        <h4 class="mt-lg-0 mt-sm-4">RA</h4>
+                        <p>Felipe Otavio - 11206</p><p>Felipe Otavio - 11206</p><p>Felipe Otavio - 11206</p>
+                        
                     </div>
                     </div>
                     <div class="row mt-5">
