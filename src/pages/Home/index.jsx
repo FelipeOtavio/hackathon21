@@ -24,20 +24,41 @@ export const Home = () => {
     return(
         <>
 
-<grid class="row">
-        
-        <div class="column">
-        <img src={W1} href="/sobre"></img>
-        <img src={W3} href="/sobre"></img>
-        <img src={W4} href="/sobre"></img>
-        <img src={W2}></img>
-        <img src={W6} href="/sobre"></img>
-        <img src={W7} href="/sobre"></img>
-        <img src={W8} href="/sobre"></img>
-        <img src={W5} href="/sobre"></img>
+
+    <div class="container-galeria">        
+        <div class="item-galeria w-2 h-1">
+            <img src={W1} class="img-galeria"></img>
         </div>
+
+        <div class="item-galeria w-1 h-2">
+        <img src={W7} class="img-galeria"></img>
+        </div>
+
+        <div class="item-galeria w-1 h-2">
+        <img src={W8} class="img-galeria"></img>
+        </div>
+
+        <div class="item-galeria w-2 h-1">
+            <img src={W2} class="img-galeria"></img>
+        </div>
+
+        <div class="item-galeria w-1 h-2">
+            <img src={W3} class="img-galeria"></img>
+        </div>
+
+        <div class="item-galeria w-1 h-2">
+            <img src={W4} class="img-galeria"></img>
+        </div>
+
+        <div class="item-galeria w-2 h-1">
+        <img src={W6} class="img-galeria"></img>
+        </div>
+
+        <div class="item-galeria w-2 h-1">
+            <img src={W5} class="img-galeria"></img>
+        </div>
+    </div>
   
-</grid>
    
             <h1 className="text-center">Produtos em Destaque</h1>
             <div className="row">
